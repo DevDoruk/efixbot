@@ -95,4 +95,4 @@ function loadCommands(commandsPath: string) {
   }
 }
 
-client.login(ConfigFile.config.token);
+client.login(process.env.BOT_TOKEN);
