@@ -73,6 +73,7 @@ async function handleCommand(msg: Discord.Message) {
     }
     catch (exception) {
       //If there is an error, then log the exception
+      console.log("Error handling message sent by " + msg.author.username)
       console.log(exception);
     }
   }
