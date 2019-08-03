@@ -3,7 +3,7 @@ import { IBotCommand } from "../api";
 
 export default class didFlutterBeatRN implements IBotCommand {
 
-    private readonly _command = "didFlutterBeatRN"
+    private readonly _command = "didflutterbeatrn"
 
     help(): string {
         return "Flutter ve React Native - Github yıldız sayısını gösterir";
