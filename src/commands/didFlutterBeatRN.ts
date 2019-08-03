@@ -20,8 +20,8 @@ export default class didFlutterBeatRN implements IBotCommand {
 
     async runCommand(args: string[], msgObject: Discord.Message, client: Discord.Client): Promise<void> {
         const apiURL: string = 'https://api.github.com/repos';
-        const flutterRepoURL: string = '$apiURL/flutter/flutter';
-        const reactnativeRepoURL: string = '$apiURL/facebook/react-native';
+        const flutterRepoURL: string = `$apiURL/flutter/flutter`;
+        const reactnativeRepoURL: string = `$apiURL/facebook/react-native`;
 
         const flutterStars = await this.getStargazersCount(flutterRepoURL)
         const rnStars = await this.getStargazersCount(reactnativeRepoURL)
