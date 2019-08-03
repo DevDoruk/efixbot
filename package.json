@@ -11,9 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^12.6.2",
-    "discord.js": "^11.5.1"
+    "discord.js": "^11.5.1",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
+    "@types/node-fetch": "^2.5.0",
     "typescript": "^3.5.3"
   }
 }

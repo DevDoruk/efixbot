@@ -1,5 +1,6 @@
 import * as Discord from "discord.js";
 import { IBotCommand } from "../api";
+import fetch from "node-fetch";
 
 export default class didFlutterBeatRN implements IBotCommand {
 
