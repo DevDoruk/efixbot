@@ -6,5 +6,6 @@ export let config = {
         "ban",
         "purge",
         "serverinfo",
+        "didFlutterBeatRN",
     ]
 }
